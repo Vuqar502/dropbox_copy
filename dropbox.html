@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Dropbox</title>
+    <style>
+        image{
+            display: inline-block;
+        }
+        a{
+            color: rgba(60, 60, 241, 0.836);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        p{
+            display: inline-block;
+        }
+        input{
+            width: 100%;
+            height: 30px;
+            margin-top: 25px;
+            border: 0.3px solid rgba(128, 128, 128, 0.685);
+            font-weight:100;
+            border-radius: 2px;
+        }
+        input::-webkit-input-placeholder { 
+             font-size: 15px;
+             line-height: 3;
+             font-weight: 100;
+             }
+
+        .head{
+            position: fixed; 
+            top: 0; 
+            width: 100% ;
+             height: 75px;
+              border-bottom: 2px solid rgba(128, 128, 128, 0.219); 
+              background-color: white; 
+        }
+        .Try{
+            font-size: 12px;
+            width: 11%; 
+            height: 35px;
+            margin-left: 16.5%; 
+            background-color: white;
+            color: blue; 
+            border-color: blue; 
+            border-radius: 5px;
+            border-width: 1px; 
+            padding: 9px ;
+            margin-bottom: 15px;
+        }
+        .Drop{
+            width: 11.5%;
+            margin-left: 15%;
+            margin-bottom: -10px;
+        }
+        .link{
+            text-decoration-line: none;
+            margin-left: 19%;
+            font-size: 17px;
+        }
+        .image{
+            width: 23%;
+            margin: 170px 0px 0px 355px;
+        }
+        .form{
+            display: inline-block;
+            margin: 168px 0px 0px 90px;
+            width: 23%
+        }
+        
+        #sign_in{
+            margin-right: 150px ;
+            font-size: 20px;
+        }
+        .google{
+            width: 350px;
+            margin-top: 5px;
+        }
+        .apple{
+            width: 348px;
+            margin-top: 15px;
+        }
+        .line{
+            border-bottom: 1px solid rgba(128, 128, 128, 0.685);
+            width: 45%;
+            display: inline-block;
+        }
+        .or{
+            margin-top: 16px;
+        }
+        #ckb{
+            width: 3.6%;
+            float: left;
+        }
+        .remember{
+            float: left;
+            margin-top: 33px;
+            margin-left: 3px;
+        }
+        #sign{
+            background-color: rgba(4, 111, 250, 0.925);
+            float: right;
+            width: 80px;
+            height: 37px;
+            color: white;
+            border-radius: 3px;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+        #dont_forgot{
+            float: left;
+            margin-top: 15px;
+            margin-right: 190px;
+        }
+        .footer{
+            border-top: 0.5px solid rgba(128, 128, 128, 0.685);
+            margin: 164.5px 280px 0px 260px
+        }
+    </style>
+</head>
+<body>  
+    <div class="head"  >
+        <a href="https://www.dropbox.com/business"></a><button class="Try" ><b>Try Dropbox Business</b></button>
+        <a href="https://www.dropbox.com/?_hp=c"><img class="Drop" src="./Dropbox.png" alt="" ></a>
+        <a href="https://www.dropbox.com/downloading?src=index" class="link">Download the app</a>
+    </div>
+    
+    <div class="body">
+        <img  class="image" src="./Image.png" alt="" align="left">
+        
+        <div class="form" align="right">
+
+            <p id="sign_in">Sing in</p>
+
+            <p>or <a href="" > create an account</a> </p> <br>
+            
+            <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type=offline&client_id=801668726815.apps.
+            googleusercontent.com&include_granted_scopes=true&prompt=select_account&redirect_uri=https%3A%2F%2Fwww.dropbox.com%2F
+            google%2Fauthcallback&response_type=code&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcontacts.
+            readonly&state=ADZwy8Or4HbjXz3hzHy--nKjM_WYVuQt2XRXvAEMJ93h4iENsVE5myUe-fj3JiJl-TRZdtDmYbFo2lcbsePQs6HxYLIL0kYqaC9Yp
+            L2S8sZg_nc2KIVLFZ3bNNd7bC_7uE44uczKX4GFk7QSIE_gKAfQn45hmX62HAP-9Euy9ZT3YWKeZuU05oweeTNo6DMkgD0Jd6aFVb1xIXTfHltQesejWBb
+            -27vI2fLHMVeHSCcBbx8tvsO5qLDgFfHtJ20XoAW1putoMguCef6_o1dXrDOYCjYLb17webXDL30Jvs4-YJaBh2oMwcGp_VgtbKxX93qqxSnRi9Fp-r0wT
+            bCA7EKKDkYho0MNkyW-KFvEHKy_457a6i56FET9C1FuLXyU-dI&flowName=GeneralOAuthFlow"><img src="./google.png" alt="" class="google"></a><br>
+
+            <a href="https://appleid.apple.com/auth/authorize?client_id=com.dropbox.Backend&redirect_uri=https%3A%2F%2Fwww.dropbox
+            .com%2Fapple%2Fauthcallback&response_mode=form_post&response_type=code&scope=name%20email&state=ADYnI2YICa4GKUrNLngPeW9
+            JDlPhLbAW5qzYNg9p9fS4fVMb_wjRylUSVNfpXr9VrXnALA2uWgX46JNcl5DIMTPVas3DZjLTXYPLPMZYvFh875IToe7Vs6cLk4o49ftz-j-oHNVcjSjoHi
+            IaiQ13FhwL6X913EGkkh6gTi8Hq99itoFsaaoYcdz2WuLIxHj_WXg7G8_lJIXN6fJ9nGggE23QxXAAWwo1fXr4mwrr6uFiDraBhpW3QyTx4F1z3_cKgZeYa
+            tomLSclTzDusgwfTepi880jz3ub1tba9cnZch_Z1rdjue6gHa8k5qIfG4XYpjbFnrkqakyuIUC3TETQYaVUC0RnoDJjuaozcF8uaAMohtn36wm-qf6aadZBT
+            X1xW7n8olac7alDOLK-x2bVKdT-"><img src="./apple.png" alt="" class="apple"></a>
+
+            <div class="or">
+                <div class="line" align="left"></div>
+                <span style="margin: 0px 5px">or</span>
+                <div class="line"></div>
+            </div>
+
+            <form action="">  
+                <input type="email" name="email" id="" placeholder="Email">
+                <input type="password" name="password" id="" placeholder="Password">
+                <input type="checkbox" name="" id="ckb" checked> 
+                <span class=" remember ">Remenber me</span>
+                <button id="sign"><b>Sign in</b></button>
+            </form><br>
+            <a id="dont_forgot" href="https://www.dropbox.com/forgot?email_from_login=">Forgot yout password?</a>
+        </div>
+
+    </div>
+   
+    
+</body>
+</html>
